@@ -13,7 +13,7 @@ struct TaskCard: View {
     @State var showSheetEdit: Bool = false
     var body: some View {
 
-        ScrollView {
+       // ScrollView {
            
                 RoundedRectangle(cornerRadius: 10, style: .continuous)
                     .foregroundColor(.white)
@@ -91,7 +91,7 @@ struct TaskCard: View {
        
             
             
-        }
+     //   }
         
         
         

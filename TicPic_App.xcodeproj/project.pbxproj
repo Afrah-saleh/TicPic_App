@@ -14,6 +14,8 @@
 		946FBF962B1326610052FDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946FBF952B1326610052FDA8 /* Assets.xcassets */; };
 		946FBF992B1326610052FDA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946FBF982B1326610052FDA8 /* Preview Assets.xcassets */; };
 		946FBFA12B1326800052FDA8 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FBFA02B1326800052FDA8 /* TaskViewModel.swift */; };
+		94DAC0372B1468C20077CEB8 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAC0362B1468C20077CEB8 /* NavigationBar.swift */; };
+		94DAC0392B146A0E0077CEB8 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAC0382B146A0E0077CEB8 /* Friends.swift */; };
 		94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BCC2B132A88007D3126 /* Add_Task.swift */; };
 		94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BCE2B132A98007D3126 /* Edit_task.swift */; };
 		94E52BD12B132CD8007D3126 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD02B132CD8007D3126 /* Calender.swift */; };
@@ -30,6 +32,8 @@
 		946FBF952B1326610052FDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946FBF982B1326610052FDA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		946FBFA02B1326800052FDA8 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		94DAC0362B1468C20077CEB8 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		94DAC0382B146A0E0077CEB8 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		94E52BCC2B132A88007D3126 /* Add_Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Task.swift; sourceTree = "<group>"; };
 		94E52BCE2B132A98007D3126 /* Edit_task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_task.swift; sourceTree = "<group>"; };
 		94E52BD02B132CD8007D3126 /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				94E52BD62B132FEB007D3126 /* SwiftUIView.swift */,
 				943A6BD32B1344FC004C519E /* TaskCard.swift */,
 				943A6BD52B134884004C519E /* Settings.swift */,
+				94DAC0362B1468C20077CEB8 /* NavigationBar.swift */,
+				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,8 +193,10 @@
 				94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */,
 				94E52BD12B132CD8007D3126 /* Calender.swift in Sources */,
 				94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */,
+				94DAC0392B146A0E0077CEB8 /* Friends.swift in Sources */,
 				946FBF942B1326600052FDA8 /* ContentView.swift in Sources */,
 				94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */,
+				94DAC0372B1468C20077CEB8 /* NavigationBar.swift in Sources */,
 				946FBFA12B1326800052FDA8 /* TaskViewModel.swift in Sources */,
 				943A6BD62B134884004C519E /* Settings.swift in Sources */,
 				943A6BD42B1344FC004C519E /* TaskCard.swift in Sources */,
