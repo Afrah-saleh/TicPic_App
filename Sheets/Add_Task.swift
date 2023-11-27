@@ -24,7 +24,7 @@ struct Add_Task: View {
                     } header: {
                         Text("Task Title")
                     }
-                    .listRowBackground(Color("Text_field_coloe"))
+                   // .listRowBackground(Color.gray)
                     
                     HStack{
                         Section {
@@ -45,7 +45,7 @@ struct Add_Task: View {
                     } header: {
                         Text("Task Description")
                     }
-                    .listRowBackground(Color("Text_field_coloe"))
+                  // .listRowBackground(Color("Text_field_coloe"))
                 }
                 
                 .tint(Color("orange2"))

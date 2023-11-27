@@ -34,13 +34,7 @@ struct Settings: View {
                     //              hasUnsavedChanges = true
                     //            }
                     
-                    Button("Save Changes") {
-                        if hasUnsavedChanges {
-                            // Save profile data to persistent storage
-                            hasUnsavedChanges = false
-                        }
-                    }
-                    .disabled(!hasUnsavedChanges) // Disable button when no changes are made
+                    
                 }
                 
                 Section("Notification Settings") {
@@ -55,7 +49,8 @@ struct Settings: View {
                         // Implement contact support functionality
                     } label: {
                         Label("Contact Support", systemImage: "questionmark.circle.fill")
-                            .foregroundColor(Color("Background"))
+                          //  .foregroundColor(Color("Background"))
+                          
                     }
                     
                 }
@@ -66,7 +61,7 @@ struct Settings: View {
                         // Implement password change functionality
                     } label: {
                         Label("Change Password", systemImage: "lock.circle.fill")
-                            .foregroundColor(Color("Background"))
+                          //  .foregroundColor(Color("Background"))
                     }
                     
                     
@@ -86,8 +81,8 @@ struct Settings: View {
                     .tint(.red) // Make delete button stand out
                 }
             }
-            .background(Color("Second_color"))
-            .navigationBarTitle(Text("Settings"))
+            //.background(Color("Second_color"))
+            .navigationBarTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
         //}
         

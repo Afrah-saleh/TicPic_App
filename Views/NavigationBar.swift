@@ -9,30 +9,36 @@ import SwiftUI
 
 struct NavigationBar: View {
     var body: some View {
-    ZStack{
-        //NavigationView {
-        TabView {
-            
-            SwiftUIView()
-                .tabItem {
-                    Label("Discover", systemImage: "square.grid.2x2")
-                }
-            Friends()
-                .tabItem {
-                    Label("Friends", systemImage: "person.3.fill")
-                }
-            Settings()
-                .tabItem {
-                    Label("Settings", systemImage: "gear")
-                }
-            
+        ZStack{
+            //NavigationView {
+            TabView {
                 
+                SwiftUIView()
+                
+                    .tabItem {
+                        Label("Discover", systemImage: "square.grid.2x2.fill")
+                        
+                        
+                    }
+                
+                
+                Calender()
+                    .tabItem {
+                        Label("Friends", systemImage: "person.3.fill")
+                    }
+                
+                Settings()
+                
+                    .tabItem {
+                        Label("Account", systemImage: "person.crop.circle.fill")
+                        
+                    }
+            }
+            .accentColor(Color("Background"))
             
         }
-        .accentColor(Color("Background"))
-
     }
-}}
+}
 
 #Preview {
     NavigationBar()

@@ -23,7 +23,7 @@ struct Edit_task: View {
                     } header: {
                         Text("Task Title")
                     }
-                    .listRowBackground(Color("Text_field_coloe"))
+                    //.listRowBackground(Color("Text_field_coloe"))
                     
                     HStack{
                         Section {
@@ -44,7 +44,7 @@ struct Edit_task: View {
                     } header: {
                         Text("Task Description")
                     }
-                    .listRowBackground(Color("Text_field_coloe"))
+                   // .listRowBackground(Color("Text_field_coloe"))
                     Button {
                                } label: {
                                    Spacer()
@@ -70,7 +70,7 @@ struct Edit_task: View {
                     //  showSheet.toggle()
                 } label: {
                     Image(systemName: "trash.fill")
-                        .foregroundColor(.orange)
+                        .foregroundColor(Color("orange2"))
                     
                 })
              

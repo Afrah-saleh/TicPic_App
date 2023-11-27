@@ -44,8 +44,8 @@ struct SwiftUIView: View {
                                                 
                                             }
                                             // MARK: Foreground Style
-                                            .foregroundStyle(taskModel.isToday(date: day) ? .primary : .secondary)
-                                            .foregroundColor(taskModel.isToday(date: day) ? .white : .black)
+                                            .foregroundStyle(taskModel.isToday(date: day) ? Color.white : Color.gray)
+                                            .foregroundColor(taskModel.isToday(date: day) ? .white : .white)
                                             // MARK: Capsule Shape
                                             .frame(width: 45, height: 90)
                                             .background(
