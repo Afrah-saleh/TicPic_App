@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943A6BD42B1344FC004C519E /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A6BD32B1344FC004C519E /* TaskCard.swift */; };
+		943A6BD62B134884004C519E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A6BD52B134884004C519E /* Settings.swift */; };
 		946FBF922B1326600052FDA8 /* TicPic_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FBF912B1326600052FDA8 /* TicPic_AppApp.swift */; };
 		946FBF942B1326600052FDA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FBF932B1326600052FDA8 /* ContentView.swift */; };
 		946FBF962B1326610052FDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946FBF952B1326610052FDA8 /* Assets.xcassets */; };
 		946FBF992B1326610052FDA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946FBF982B1326610052FDA8 /* Preview Assets.xcassets */; };
+		946FBFA12B1326800052FDA8 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FBFA02B1326800052FDA8 /* TaskViewModel.swift */; };
+		94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BCC2B132A88007D3126 /* Add_Task.swift */; };
+		94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BCE2B132A98007D3126 /* Edit_task.swift */; };
+		94E52BD12B132CD8007D3126 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD02B132CD8007D3126 /* Calender.swift */; };
+		94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD62B132FEB007D3126 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940F43952B132781009A530D /* TicPic_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicPic_App.entitlements; sourceTree = "<group>"; };
+		943A6BD32B1344FC004C519E /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
+		943A6BD52B134884004C519E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		946FBF8E2B1326600052FDA8 /* TicPic_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicPic_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946FBF912B1326600052FDA8 /* TicPic_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicPic_AppApp.swift; sourceTree = "<group>"; };
 		946FBF932B1326600052FDA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		946FBF952B1326610052FDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		946FBF982B1326610052FDA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		946FBFA02B1326800052FDA8 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		94E52BCC2B132A88007D3126 /* Add_Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add_Task.swift; sourceTree = "<group>"; };
+		94E52BCE2B132A98007D3126 /* Edit_task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_task.swift; sourceTree = "<group>"; };
+		94E52BD02B132CD8007D3126 /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
+		94E52BD62B132FEB007D3126 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +47,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		943A6BD22B1344E3004C519E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94E52BD02B132CD8007D3126 /* Calender.swift */,
+				94E52BD62B132FEB007D3126 /* SwiftUIView.swift */,
+				943A6BD32B1344FC004C519E /* TaskCard.swift */,
+				943A6BD52B134884004C519E /* Settings.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		946FBF852B1326600052FDA8 = {
 			isa = PBXGroup;
 			children = (
+				943A6BD22B1344E3004C519E /* Views */,
+				94E52BD22B132F5A007D3126 /* Sheets */,
+				946FBF9F2B1326760052FDA8 /* Models */,
 				946FBF902B1326600052FDA8 /* TicPic_App */,
 				946FBF8F2B1326600052FDA8 /* Products */,
 			);
@@ -51,6 +80,7 @@
 		946FBF902B1326600052FDA8 /* TicPic_App */ = {
 			isa = PBXGroup;
 			children = (
+				940F43952B132781009A530D /* TicPic_App.entitlements */,
 				946FBF912B1326600052FDA8 /* TicPic_AppApp.swift */,
 				946FBF932B1326600052FDA8 /* ContentView.swift */,
 				946FBF952B1326610052FDA8 /* Assets.xcassets */,
@@ -65,6 +95,23 @@
 				946FBF982B1326610052FDA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		946FBF9F2B1326760052FDA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				946FBFA02B1326800052FDA8 /* TaskViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94E52BD22B132F5A007D3126 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				94E52BCC2B132A88007D3126 /* Add_Task.swift */,
+				94E52BCE2B132A98007D3126 /* Edit_task.swift */,
+			);
+			path = Sheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */,
+				94E52BD12B132CD8007D3126 /* Calender.swift in Sources */,
+				94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */,
 				946FBF942B1326600052FDA8 /* ContentView.swift in Sources */,
+				94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */,
+				946FBFA12B1326800052FDA8 /* TaskViewModel.swift in Sources */,
+				943A6BD62B134884004C519E /* Settings.swift in Sources */,
+				943A6BD42B1344FC004C519E /* TaskCard.swift in Sources */,
 				946FBF922B1326600052FDA8 /* TicPic_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,9 +323,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicPic_App/TicPic_App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicPic_App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y64UFA9C5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,9 +353,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicPic_App/TicPic_App.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TicPic_App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y64UFA9C5L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
