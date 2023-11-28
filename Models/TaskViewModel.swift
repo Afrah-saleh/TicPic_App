@@ -15,6 +15,8 @@ class TaskViewModel: ObservableObject {
        @Published var currentMonth: [Date] = []
     // MARK: Current Day
     @Published var currentDay: Date = Date()
+    
+    
     // MARK: Initializing
     init() {
         fetchCurrentWeek()
@@ -67,6 +69,11 @@ class TaskViewModel: ObservableObject {
     func isToday(date: Date) -> Bool {
         let calendar = Calendar.current
         return calendar.isDate(currentDay, inSameDayAs: date)
+//        func isToday(date: Date, date1: Date) -> Bool {
+//            
+////            return Calendar.current.isDate(date, inSameDayAs: date1)
+//            
+//        //}
         // MARK: Checking if the currentHour is task Hour
         func isCurrentHour(date: Date) -> Bool {
             let calendar = Calendar.current

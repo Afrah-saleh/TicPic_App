@@ -12,6 +12,7 @@ struct SwiftUIView: View {
     @Namespace var animation
     @State var showSheetAdd: Bool = false
     @State var showSheetEdit: Bool = false
+    
     var body: some View {
        
             
@@ -21,9 +22,10 @@ struct SwiftUIView: View {
                     ScrollView(.vertical, showsIndicators: false) {
                         NavigationLink(destination: Calender()) {
                             Text("See All")
+                            
                         }
                         .padding(.top,10)
-                        .padding(.leading,280)
+                        .padding(.leading,300)
                         .font(.headline)
                         //.font(.caption)
                         .foregroundColor(.orange2)
@@ -46,6 +48,7 @@ struct SwiftUIView: View {
                                             // MARK: Foreground Style
                                             .foregroundStyle(taskModel.isToday(date: day) ? Color.white : Color.gray)
                                             .foregroundColor(taskModel.isToday(date: day) ? .white : .white)
+                                  
                                             // MARK: Capsule Shape
                                             .frame(width: 45, height: 90)
                                             .background(
@@ -70,12 +73,15 @@ struct SwiftUIView: View {
                                     .padding(.horizontal)
                                 }
                                 //Add New Task sheet
-                                
+                                Divider()
+                                    .frame(width: 380)
+                                   // .overlay(Color("Background"))
+                                   // .frame(height: 2)
                                 Button("Add task"){
                                     showSheetAdd.toggle()
                                     
                                 } .foregroundColor(Color("orange2"))
-                                    .padding(.leading,280)
+                                    .padding(.leading,290)
                                     .font(.headline)
                                     .sheet(isPresented: $showSheetAdd) {
                                         Add_Task()
@@ -95,7 +101,8 @@ struct SwiftUIView: View {
                 .background(Color("Second_color"))
                 .navigationBarTitle(Text("Discover"))
                 .navigationBarTitleDisplayMode(.large)
-        }
+                
+            }
     }
 }
 #Preview {

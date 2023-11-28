@@ -28,7 +28,9 @@ struct TaskCard: View {
                 .frame(maxWidth: .infinity)
                 .frame(height: animate ? 150 : 100)
 //                .shadow(color: .gray.opacity(0.8), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: 0, y: 8)
-                .padding()
+              //  .padding()
+                .padding(.leading)
+                .padding(.trailing)
             
             
             
@@ -57,6 +59,7 @@ struct TaskCard: View {
                             } label: {
                                 Image(systemName: "pencil")
                                     .foregroundColor(Color("orange2"))
+                                    .frame(width:30,height: 20)
                             }
                             .sheet(isPresented: $showSheetEdit) {
                                 Edit_task()
@@ -70,25 +73,40 @@ struct TaskCard: View {
                             
                             
                         }
+                        
                         Text("About our App TickPic")
                             .font(.system(size: 15))
                             .foregroundStyle(.gray)
-                        
-                        
                         if animate {
-                            Button("Take a pic") {
-                                print("Button pressed!")
-                                
+                            Button(action: {
+                            }) {
+                            Label("Done", systemImage: "camera.viewfinder")
+                            .frame(width:70 , height: 5)
+                            .font(.system(size: 16))
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color.orange2)
+                            .cornerRadius(10)
+                            
                             }
+                            .foregroundColor(.orange2)
+                        }
+                        
+//                        if animate {
+//                            Button("Take a pic") {
+//                                print("Button pressed!")
+//                          
+//                                
+//                            }
                             
                             //                                .frame(maxWidth: 300)
-                            .padding()
-                            .controlSize(.small)
-                            .background(Color("orange2"))
-                            .clipShape(Capsule())
-                            .foregroundStyle(.white)
-                            
-                            
+//                            .padding()
+//                            .controlSize(.small)
+//                            .background(Color("orange2"))
+//                            .clipShape(Capsule())
+//                            .foregroundStyle(.white)
+//                            
+//                            
                         }
                         
                         
@@ -107,7 +125,7 @@ struct TaskCard: View {
         
         
     }
-}
+
 
 #Preview {
     TaskCard()

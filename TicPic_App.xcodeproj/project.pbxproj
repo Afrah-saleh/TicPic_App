@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9402C3572B15C84E00A84A71 /* Splash_Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402C3562B15C84E00A84A71 /* Splash_Screen.swift */; };
+		9402C3592B15ECD300A84A71 /* Main_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9402C3582B15ECD300A84A71 /* Main_View.swift */; };
 		943A6BD42B1344FC004C519E /* TaskCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A6BD32B1344FC004C519E /* TaskCard.swift */; };
 		943A6BD62B134884004C519E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943A6BD52B134884004C519E /* Settings.swift */; };
 		946FBF922B1326600052FDA8 /* TicPic_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946FBF912B1326600052FDA8 /* TicPic_AppApp.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9402C3562B15C84E00A84A71 /* Splash_Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash_Screen.swift; sourceTree = "<group>"; };
+		9402C3582B15ECD300A84A71 /* Main_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_View.swift; sourceTree = "<group>"; };
 		940F43952B132781009A530D /* TicPic_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicPic_App.entitlements; sourceTree = "<group>"; };
 		943A6BD32B1344FC004C519E /* TaskCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCard.swift; sourceTree = "<group>"; };
 		943A6BD52B134884004C519E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				943A6BD52B134884004C519E /* Settings.swift */,
 				94DAC0362B1468C20077CEB8 /* NavigationBar.swift */,
 				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
+				9402C3562B15C84E00A84A71 /* Splash_Screen.swift */,
+				9402C3582B15ECD300A84A71 /* Main_View.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,9 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */,
+				9402C3592B15ECD300A84A71 /* Main_View.swift in Sources */,
 				94E52BD12B132CD8007D3126 /* Calender.swift in Sources */,
 				94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */,
 				94DAC0392B146A0E0077CEB8 /* Friends.swift in Sources */,
+				9402C3572B15C84E00A84A71 /* Splash_Screen.swift in Sources */,
 				946FBF942B1326600052FDA8 /* ContentView.swift in Sources */,
 				94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */,
 				94DAC0372B1468C20077CEB8 /* NavigationBar.swift in Sources */,

@@ -22,9 +22,10 @@ struct Calender: View {
                         .frame(maxHeight: 400)
                         .tint(Color("orange2"))
                         .offset(x:0, y:20)
+                    Spacer()
                     Text("Today's Tasks:")
                         .font(.headline)
-                        .offset(x:-120, y:30)
+                        .offset(x:-120, y:50)
                     
                 }
             }

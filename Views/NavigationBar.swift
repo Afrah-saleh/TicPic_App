@@ -17,7 +17,7 @@ struct NavigationBar: View {
                 
                     .tabItem {
                         Label("Discover", systemImage: "square.grid.2x2.fill")
-                        
+    
                         
                     }
                 

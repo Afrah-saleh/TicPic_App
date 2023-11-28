@@ -81,7 +81,7 @@ struct Settings: View {
                     .tint(.red) // Make delete button stand out
                 }
             }
-            //.background(Color("Second_color"))
+            .background(Color("Second_color"))
             .navigationBarTitle("Settings")
             .navigationBarTitleDisplayMode(.inline)
         //}
