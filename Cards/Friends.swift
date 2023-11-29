@@ -49,7 +49,7 @@ struct Friends: View {
                         })
                         .foregroundColor(.white)
                         .frame(width: 100 , height: 30)
-                        .background(Color("Orange"))
+                        .background(Color("orange2"))
                         .cornerRadius(12)
                         .padding(.leading , 2)
                         

@@ -30,6 +30,7 @@
 		94E52BCF2B132A98007D3126 /* Edit_task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BCE2B132A98007D3126 /* Edit_task.swift */; };
 		94E52BD12B132CD8007D3126 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD02B132CD8007D3126 /* Calender.swift */; };
 		94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD62B132FEB007D3126 /* SwiftUIView.swift */; };
+		94F773922B171A0D00482362 /* Friends2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F773912B171A0D00482362 /* Friends2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		94E52BCE2B132A98007D3126 /* Edit_task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edit_task.swift; sourceTree = "<group>"; };
 		94E52BD02B132CD8007D3126 /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
 		94E52BD62B132FEB007D3126 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		94F773912B171A0D00482362 /* Friends2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				943A6BD32B1344FC004C519E /* TaskCard.swift */,
 				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
 				94922DD42B1681E700BA99C2 /* ImagesView.swift */,
+				94F773912B171A0D00482362 /* Friends2.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				94922DDD2B16823C00BA99C2 /* coordinator.swift in Sources */,
 				946FBFA12B1326800052FDA8 /* TaskViewModel.swift in Sources */,
 				943A6BD62B134884004C519E /* Settings.swift in Sources */,
+				94F773922B171A0D00482362 /* Friends2.swift in Sources */,
 				94922DD52B1681E700BA99C2 /* ImagesView.swift in Sources */,
 				943A6BD42B1344FC004C519E /* TaskCard.swift in Sources */,
 				946FBF922B1326600052FDA8 /* TicPic_AppApp.swift in Sources */,

@@ -17,7 +17,7 @@ struct Follwers: View {
     @State var selected = 1
     var body: some View {
         
-        NavigationStack {
+      //  NavigationStack {
             
                 VStack() {
                     
@@ -44,7 +44,7 @@ struct Follwers: View {
                 .background(Color("Second_color"))
             
         }
-    }
+   // }
 }
 
 #Preview {
