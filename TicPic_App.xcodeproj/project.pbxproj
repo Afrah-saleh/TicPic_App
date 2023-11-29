@@ -31,6 +31,7 @@
 		94E52BD12B132CD8007D3126 /* Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD02B132CD8007D3126 /* Calender.swift */; };
 		94E52BD72B132FEB007D3126 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E52BD62B132FEB007D3126 /* SwiftUIView.swift */; };
 		94F773922B171A0D00482362 /* Friends2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F773912B171A0D00482362 /* Friends2.swift */; };
+		94F773942B17A01D00482362 /* Invetations2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F773932B17A01D00482362 /* Invetations2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		94E52BD02B132CD8007D3126 /* Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calender.swift; sourceTree = "<group>"; };
 		94E52BD62B132FEB007D3126 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		94F773912B171A0D00482362 /* Friends2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends2.swift; sourceTree = "<group>"; };
+		94F773932B17A01D00482362 /* Invetations2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invetations2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
 				94922DD42B1681E700BA99C2 /* ImagesView.swift */,
 				94F773912B171A0D00482362 /* Friends2.swift */,
+				94F773932B17A01D00482362 /* Invetations2.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94922DD12B1681B600BA99C2 /* Invetations.swift in Sources */,
+				94F773942B17A01D00482362 /* Invetations2.swift in Sources */,
 				94E52BCD2B132A88007D3126 /* Add_Task.swift in Sources */,
 				9402C3592B15ECD300A84A71 /* Main_View.swift in Sources */,
 				94E52BD12B132CD8007D3126 /* Calender.swift in Sources */,

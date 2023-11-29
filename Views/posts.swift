@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct posts: View {
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
         
         //main vs
@@ -45,7 +47,7 @@ struct posts: View {
                         HStack {
                         label:do {
                             Image(systemName: "person.crop.circle.fill.badge.plus")
-                                .foregroundColor(.black)
+                                .foregroundColor(colorScheme == .dark ? .white : .black)
                                 .padding(.leading)
                             
                         }

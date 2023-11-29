@@ -11,7 +11,7 @@ import SwiftUI
 struct TicPic_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            SwiftUIView()
+            Splash_Screen()
         }
     }
 }

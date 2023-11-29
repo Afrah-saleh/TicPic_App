@@ -1,14 +1,13 @@
 //
-//  Friends2.swift
+//  Invetations2.swift
 //  TicPic_App
 //
 //  Created by Afrah Saleh on 15/05/1445 AH.
 //
 
 import SwiftUI
-//import UIKit
 
-struct Friends2: View {
+struct Invetations2: View {
     @State private var users: [User] = User.USERS
     var body: some View {
        // Form {
@@ -31,8 +30,25 @@ struct Friends2: View {
                                 .fontWeight(.light)
                                 
                         } .offset(x:10)
+                        Spacer() // Add spacer to fill remaining space
+
+                                         // Add accept icon
+                                         Image(systemName: "checkmark.circle")
+                                             .resizable()
+                                             .scaledToFit()
+                                             .frame(width: 20, height: 20)
+                        
+
+                                           
+                                         // Add reject icon
+                                         Image(systemName: "multiply.circle")
+                                             .resizable()
+                                             .scaledToFit()
+                                             .frame(width: 20, height: 20)
+                                             .foregroundColor(Color("orange2"))
+                                             .padding(.leading,2)
                     }
-                }.onDelete(perform: deleteItem)
+                }
               .listRowBackground(Color.clear)
             }
            // Set list item background color
@@ -43,12 +59,9 @@ struct Friends2: View {
   
     }
     
-    private func deleteItem(at offsets: IndexSet) {
-        users.remove(atOffsets: offsets)
-      }
+
     }
 
 #Preview {
-    Friends2()
+    Invetations2()
 }
-

@@ -16,25 +16,27 @@ struct Settings: View {
     @State var hasUnsavedChanges: Bool = false
     
     var body: some View {
-       // NavigationView {
+        NavigationView {
             Form {
-                Section("Profile") {
-                    Image(systemName: "person.circle")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .padding()
-                    
-                    TextField("Name", text: $profileName)
-                    //            .onChange(of: $profileName) { _ in
-                    //              hasUnsavedChanges = true
-                    //            }
-                    
-                    TextField("Email", text: $profileEmail)
-                    //            .onChange(of: $profileEmail) { _ in
-                    //              hasUnsavedChanges = true
-                    //            }
-                    
-                    
+              //  List{
+                    Section("Profile") {
+                        Image(systemName: "person.circle")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .padding()
+                        
+                        TextField("Name", text: $profileName)
+                        //            .onChange(of: $profileName) { _ in
+                        //              hasUnsavedChanges = true
+                        //            }
+                        
+                        TextField("Email", text: $profileEmail)
+                        //            .onChange(of: $profileEmail) { _ in
+                        //              hasUnsavedChanges = true
+                        //            }
+                        
+                        
+                   // }
                 }
                 
                 Section("Notification Settings") {
@@ -82,9 +84,11 @@ struct Settings: View {
                 }
             }
             .background(Color("Second_color"))
+                .scrollContentBackground(.hidden)
+           // .background(Color("Second_color"))
             .navigationBarTitle("Settings")
-            .navigationBarTitleDisplayMode(.inline)
-        //}
+            .navigationBarTitleDisplayMode(.large)
+        }
         
     }
 }
