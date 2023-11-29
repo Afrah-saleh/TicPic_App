@@ -17,7 +17,7 @@ struct posts: View {
                     
                     Divider()
                         .background(Color("Orange"))
-                        .frame(width: 370)
+                        .frame(width: 400)
                      
                     Text("See your friends’ accomplished !")
                         .padding(30)
@@ -35,26 +35,30 @@ struct posts: View {
                     }
                 }
             }
-            .navigationTitle("Post")
-            .navigationBarTitleDisplayMode(.inline)
+          
+         // 1st Navlink ends
+            
             .toolbar{
                 
                 ToolbarItem(placement: .navigationBarTrailing){
-                    
-                    Button{
-                        
-                    }
-                 label:{
-                    Image(systemName: "person.crop.circle.fill.badge.plus")
-                        .foregroundColor(.black)
-                        .padding(30)
+                    NavigationLink(destination: Follwers().navigationBarBackButtonHidden(false))  {
+                        HStack {
+                        label:do {
+                            Image(systemName: "person.crop.circle.fill.badge.plus")
+                                .foregroundColor(.black)
+                                .padding(.leading)
                             
+                        }
+                        }
+                    }
                 }
-                }
-            }//end of tool bar
-            
+            }
+                
+            .background(Color("Second_color"))
+            .navigationTitle("Post")
+            .navigationBarTitleDisplayMode(.large)
         }
-    }
+   }
 }
 
 #Preview {

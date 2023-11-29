@@ -16,7 +16,7 @@ struct CamiraView: View {
     
     var body: some View {
         
-        NavigationView {
+       NavigationView {
                    VStack {
                        Spacer()
                        if selectedImage != nil {
@@ -36,13 +36,7 @@ struct CamiraView: View {
                            self.sourceType = .camera
                            self.isImagePickerDisplay.toggle()
                        }.padding()
-                       
-                       //if we need to import images from my library
-//                       Button("photo") {
-//                           self.sourceType = .photoLibrary
-//                           self.isImagePickerDisplay.toggle()
-//                       }.padding()
-                       
+
                     Spacer()
                        HStack (spacing:14){
                            
@@ -80,10 +74,11 @@ struct CamiraView: View {
                    .sheet(isPresented: self.$isImagePickerDisplay) {
                        ImagePickerView(selectedImage: self.$selectedImage, sourceType: self.sourceType)
                    }
-                   
+                   .navigationBarTitle(Text("Discover"))
+                   .navigationBarTitleDisplayMode(.inline)
                }
-        
-    }
+       
+ }
 }
 
 #Preview {

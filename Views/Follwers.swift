@@ -41,7 +41,7 @@ struct Follwers: View {
                 }
                 .navigationTitle("My Friends")
                 .searchable(text: $searchItem , prompt: "Add Friends")
-            
+                .background(Color("Second_color"))
             
         }
     }

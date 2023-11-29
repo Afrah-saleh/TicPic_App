@@ -13,7 +13,7 @@ struct Calender: View {
     @State var showSheetEdit: Bool = false
     @State private var date = Date.now
     var body: some View {
-      //  NavigationView {
+       // NavigationView {
             ScrollView{
                 
                 VStack {
@@ -43,10 +43,10 @@ struct Calender: View {
                     .presentationDetents([.fraction(0.7)])
                     .presentationDragIndicator(.visible)
             }
-        
+         
         }
-   //}
-}
+   }
+//}
         
         
     

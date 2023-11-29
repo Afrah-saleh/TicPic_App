@@ -11,6 +11,7 @@ struct Main_View: View {
     var body: some View {
         NavigationView {
             ZStack {
+               
                 Image("Logo")
                     .renderingMode(.none)
                     .resizable(resizingMode: .stretch)
@@ -57,11 +58,12 @@ struct Main_View: View {
                         
                     } // 2nd Navlink ends
 
-              
+                 
 
                 }
             }
         }
+        
     }
 }
 

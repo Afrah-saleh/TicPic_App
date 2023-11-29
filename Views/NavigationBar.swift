@@ -22,7 +22,7 @@ struct NavigationBar: View {
                     }
                 
                 
-                Follwers()
+                posts()
                     .tabItem {
                         Label("Friends", systemImage: "person.3.fill")
                     }

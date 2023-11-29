@@ -39,7 +39,7 @@ struct ImagesView: View {
                         Text("Clean My Bed Room")
                             .foregroundColor(.white)
                             .fontWeight(.light)
-                            .strikethrough(color : Color("Orange"))
+                            .strikethrough(color : Color("orange2"))
                             
                     }
         

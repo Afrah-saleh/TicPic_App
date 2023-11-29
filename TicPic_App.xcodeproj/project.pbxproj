@@ -76,15 +76,11 @@
 			children = (
 				94E52BD02B132CD8007D3126 /* Calender.swift */,
 				94E52BD62B132FEB007D3126 /* SwiftUIView.swift */,
-				943A6BD32B1344FC004C519E /* TaskCard.swift */,
 				943A6BD52B134884004C519E /* Settings.swift */,
 				94DAC0362B1468C20077CEB8 /* NavigationBar.swift */,
-				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
 				9402C3562B15C84E00A84A71 /* Splash_Screen.swift */,
-				9402C3582B15ECD300A84A71 /* Main_View.swift */,
-				94922DD02B1681B600BA99C2 /* Invetations.swift */,
 				94922DD22B1681D100BA99C2 /* Follwers.swift */,
-				94922DD42B1681E700BA99C2 /* ImagesView.swift */,
+				9402C3582B15ECD300A84A71 /* Main_View.swift */,
 				94922DD62B1681FB00BA99C2 /* CamiraView.swift */,
 				94922DD82B16820F00BA99C2 /* posts.swift */,
 			);
@@ -94,6 +90,7 @@
 		946FBF852B1326600052FDA8 = {
 			isa = PBXGroup;
 			children = (
+				94F773902B17085A00482362 /* Cards */,
 				943A6BD22B1344E3004C519E /* Views */,
 				94E52BD22B132F5A007D3126 /* Sheets */,
 				946FBF9F2B1326760052FDA8 /* Models */,
@@ -148,6 +145,17 @@
 				94E52BCE2B132A98007D3126 /* Edit_task.swift */,
 			);
 			path = Sheets;
+			sourceTree = "<group>";
+		};
+		94F773902B17085A00482362 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				94922DD02B1681B600BA99C2 /* Invetations.swift */,
+				943A6BD32B1344FC004C519E /* TaskCard.swift */,
+				94DAC0382B146A0E0077CEB8 /* Friends.swift */,
+				94922DD42B1681E700BA99C2 /* ImagesView.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
