@@ -24,6 +24,7 @@ struct Calender: View {
                         .offset(x:0, y:20)
                     Spacer()
                     Text("Today's Tasks:")
+                    //Fetech the cards based on the dates
                         .font(.headline)
                         .offset(x:-120, y:50)
                     

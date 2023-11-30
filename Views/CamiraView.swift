@@ -65,7 +65,7 @@ struct CamiraView: View {
                                    .foregroundColor(.white)
                                    .bold()
                                    .frame(width: 104 , height: 39)
-                                   .background(Color("Orange"))
+                                   .background(Color("orange2"))
                                    .cornerRadius(12)
                            })
                        }

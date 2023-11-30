@@ -14,7 +14,7 @@ struct Splash_Screen: View {
     var body: some View {
         ZStack {
             if self.isActive {
-                Main_View()
+                Main_View(user: User.USERS[0])
                 
             } else {
                 Color("Second_color")

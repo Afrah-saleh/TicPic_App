@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Main_View: View {
+    let user: User
     var body: some View {
         NavigationView {
             ZStack {
@@ -20,7 +21,7 @@ struct Main_View: View {
                     .opacity(0.3)
 
                 VStack {
-                    NavigationLink(destination: NavigationBar().navigationBarBackButtonHidden(true)) {
+                    NavigationLink(destination: NavigationBar(newTask: Tasks.MOCK_TASK[0]).navigationBarBackButtonHidden(true)) {
                             Text("Skip")
                                 .foregroundColor(Color("orange2"))
                    
@@ -34,7 +35,7 @@ struct Main_View: View {
                         .padding(.horizontal)
                         .offset(x: 0, y: -50)
 
-                    NavigationLink(destination: NavigationBar().navigationBarBackButtonHidden(true))  {
+                    NavigationLink(destination: NavigationBar(newTask: Tasks.MOCK_TASK[0]).navigationBarBackButtonHidden(true))  {
                         HStack {
                             Label("Sign in", systemImage: "person.fill")
                                 .foregroundColor(.white)
@@ -51,7 +52,7 @@ struct Main_View: View {
                         Text("Create new account?")
                             .foregroundColor(Color("orange2"))
 
-                        NavigationLink(destination: NavigationBar().navigationBarBackButtonHidden(true))  {
+                        NavigationLink(destination: NavigationBar(newTask: Tasks.MOCK_TASK[0]).navigationBarBackButtonHidden(true))  {
                             Text("**Create Account**")
                                 .foregroundColor(Color("orange2"))
                         }
@@ -69,5 +70,5 @@ struct Main_View: View {
 
 
 #Preview {
-    Main_View()
+    Main_View(user: User.USERS[0])
 }
